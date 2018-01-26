@@ -1,19 +1,25 @@
-# react-native-startApp
+
 
 背景：Android中，检查手机中，是否存在包个APK，当存在的时候，直接打开此APK。
 
 使用方式：
+```
 
 npm install react-native-startapp --save
 
-
+```
 引入：
 
+```
+
 import StartApp from 'react-native-startapp'
+
+```
 
 
 使用如下：
 
+```
 componentDidMount(){
         this.startAPP();
 };
@@ -34,5 +40,6 @@ startAPP = async () => {
             ToastAndroid.show('出现异常，help!!!!!SOS!!!!!!', ToastAndroid.SHORT);
         }
 };
-    
+  
+```  
     
